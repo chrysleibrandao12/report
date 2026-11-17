@@ -538,6 +538,14 @@ controle de entrada e saida de veiculos
   </div>
 
   <script>
+    const SUPABASE_URL = 'https://vjwkfydxsfiowvlspeid.supabase.co';
+
+const SUPABASE_KEY = 'sb_publishable_MmQZzTpm1f5uMvTzl65-PA_JmsOskEK';
+
+const supabaseClient = window.supabase.createClient(
+  SUPABASE_URL,
+  SUPABASE_KEY
+);
     const STORAGE_KEY_CLIENTS = 'report_operacional_clients_v8';
 
     const SAMPLE_RECORDS = [
